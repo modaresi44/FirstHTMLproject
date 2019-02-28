@@ -1,0 +1,51 @@
+
+* { 
+	box-sizing: border-box; 
+}
+h1, h2, h3, h4, h5, h6, header{
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+ 
+.animals h2 { 
+	color: red; 
+}
+.minerals h2 { 
+	color: green; 
+}
+.vegetables h2 { 
+	color: blue; 
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+}
+section {
+	border: inset #333 thin;
+	padding: 1em;
+}
+
+.animals section {
+	background-color: lightblue;
+}
+.minerals section {
+	background-color: pink;
+}
+.vegetables section {
+	background-color: lightyellow;
+}
+
+@media (max-width: 749px) {
+	main {
+		flex-direction: column;
+	}
+	
+}
+
+
+ 
