@@ -1,0 +1,28 @@
+
+body {
+	background-color: lightpink;
+	text-align: center;
+
+}
+
+
+ h1{
+ 	color: blue;
+ 	background-color: white;
+ 	 
+ 	text-align: center;
+ }
+
+ img {
+ 	text-align: center;
+ } 
+
+ul {
+ 	color: blue;
+ 	text-align: left;
+ }
+
+ol {
+	color: purple;text-align: left;
+
+}

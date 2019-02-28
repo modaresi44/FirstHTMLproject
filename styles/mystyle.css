@@ -1,0 +1,32 @@
+
+body{
+	background-color: lightblue;
+}
+
+p{
+	color: blue;
+	background-color: yellow;
+}
+ 
+
+#id1 { background-color: pink;}
+.class1 { background-color: white;}
+h1 { background-color: brown;}
+
+#square {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+}
+#circle {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	border-radius: 50%
+}
+#triangle {
+	width: 0;
+	height: 0;
+	border-top: 200px solid blue;
+	/*border-right: 200px solid transparent;*/
+}
