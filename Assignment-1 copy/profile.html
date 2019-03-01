@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Profile</title>
+	<link rel="stylesheet" href="styles/cabi.css">  
+</head>
+<body>
+	<header>
+		<h1>Cabi Collection</h1>
+		<h3 id="h3_title">Clothing & Jewerly - The Spring 2019</h3>
+	</header>
+	<main>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="register.html">Register</a></li>	
+				<li><a href="product.html">Products</a></li>
+				<li><a href="purchase.html">Purchase</a></li>
+				<li><a href="profile.html">Profile</a></li>	
+			</ul>
+		</nav>
+		<h3 class="page_title">Display User Profile</h3>
+		<div id="div_main">
+			<form>
+			 	<label for="username">Userame:</label>
+			 	<input type="text" name="username" disabled="disabled" value="modaresi44"
+			 	minlength="6" maxlength="15"/><br>
+			 	<label for="firstname">First Name:</label>
+			 	<input type="text" name="firstname" disabled="disabled" value="Hoda"
+			 	maxlength="50"/><br>
+			 	<label for="lastname">Last Name:</label>
+			 	<input type="text" name="lastname" disabled="disabled" value="Modaresi"
+			 	maxlength="50"/><br>
+			 	<label for="address">Address:</label>
+			 	<input type="text" name="address" disabled="disabled" value="999 Sassafras Ridge Ter." 
+			 	tabindex="5" maxlength="50"/>
+			 	<label class="inline" for="city">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;City:</label>
+			 	<input type="text" name="city" disabled="disabled" value="Ashburn" /><br>
+			 	<label for="state">State:</label>
+			 	<input type="text" name="state" disabled="disabled" value="VA" 
+			 	minlength="2" maxlength="2" />
+			 	<label class="inline" for="zipcode">Zipcode:</label>
+			 	<input type="text" pattern="[0-9]{5}" name="zipcode" disabled="disabled" value="20176"
+			 	minlength="5" maxlength="5" /><br>
+			 	<label for="email">Email Address:</label>
+			 	<input type="email" name="email" disabled="disabled" value="modaresi44@yahoo.com" /><br>
+			 	<label for="dob">Date of Birth:</label>
+			 	<input type="date" name="dob" value="2019-03-01"
+       			min="2019-03-01" max="2019-12-31"/><br>
+       			<label for="martial">Marital Status:</label>
+       			<select size="1" name="martial" disabled="disabled" >
+                    <option value="married" selected >Married</option>
+                    <option value="single">Single</option>
+                    <option value="divorced">Divorced</option>
+                    <option value="separated">Separated</option>
+                </select><br>
+                <label for="profession">Profession:</label>
+       			<select size="1" name="profession" disabled="disabled" >
+                    <option value="student" selected >Student</option>
+                    <option value="full-time Employment">Full-time Employment</option>
+                    <option value="professional">Professional</option>
+                    <option value="self-employed">Self-employed</option>
+                    <option value="others">Others</option>
+                </select><br>
+                <label for="own">Own which of these?</label>
+		 		<input type="checkbox" name="mobile" value="mobile" checked >Mobile
+		 		<input type="checkbox" name="tablet" value="tablet">Tablet
+		 		<input type="checkbox" name="desktop" value="desktop">Mobile
+		 		<input type="checkbox" name="laptop" value="laptop" checked>Laptop
+		 		<br><br>
+		 		<input type="submit" value="Edit" class="mybutton">
+			</form>
+		</div>
+	</main>
+</body>
+</html>
+ 

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Rgistration</title>
+	<link rel="stylesheet" href="styles/cabi.css">  
+</head>
+<body>
+	<header>
+		<h1>Cabi Collection</h1>
+		<h3 id="h3_title">Clothing & Jewerly - The Spring 2019</h3>
+	</header>
+	<main>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="register.html">Register</a></li>	
+				<li><a href="product.html">Products</a></li>
+				<li><a href="purchase.html">Purchase</a></li>
+				<li><a href="profile.html">Profile</a></li>	
+			</ul>
+		</nav>
+		<h3 class="page_title">Registration</h3>
+		<div id="div_main">
+			<form>
+			 	<label for="username"><spam class="star">* </spam>Userame:</label>
+			 	<input type="text" name="username" required="required" tabindex="1"
+			 	minlength="6" maxlength="15"/><br>
+			 	<label for="password"><spam class="star">* </spam>Password:</label>
+			 	<input type="password" name="password" required="required" tabindex="2"
+			 	minlength="6" maxlength="15"/><br>
+			 	<label for="firstname"><spam class="star">* </spam>First Name:</label>
+			 	<input type="text" name="firstname" required="required" tabindex="3"
+			 	maxlength="50"/><br>
+			 	<label for="lastname"><spam class="star">* </spam>Last Name:</label>
+			 	<input type="text" name="lastname" required="required" tabindex="4"
+			 	maxlength="50"/><br>
+			 	<label for="address">Address:</label>
+			 	<input type="text" name="address" tabindex="5" maxlength="50"/>
+			 	<label class="inline" for="city">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<spam class="star">* </spam>City:</label>
+			 	<input type="text" name="city" required="required" tabindex="6"/><br>
+			 	<label for="state">State:</label>
+			 	<input type="text" name="state" tabindex="7" minlength="2" maxlength="2" />
+			 	<label class="inline" for="zipcode"><spam class="star">* </spam>Zipcode:</label>
+			 	<input type="text" pattern="[0-9]{5}" name="zipcode" required="required" tabindex="8"
+			 	minlength="5" maxlength="5" /><br>
+			 	<label for="email"><spam class="star">* </spam>Email Address:</label>
+			 	<input type="email" name="email" required="required" tabindex="9"/><br>
+			 	<label for="dob"><spam class="star">* </spam>Date of Birth:</label>
+			 	<input type="date" name="dob" required="required" tabindex="10" value="2019-03-01"
+       			min="2019-03-01" max="2019-12-31"/><br>
+       			<label for="martial">Marital Status:</label>
+       			<select size="1" name="martial" tabindex="11">
+                    <option value="married">Married</option>
+                    <option value="single">Single</option>
+                    <option value="divorced">Divorced</option>
+                    <option value="separated">Separated</option>
+                </select><br>
+                <label for="profession">Profession:</label>
+       			<select size="1" name="profession" tabindex="12">
+                    <option value="student">Student</option>
+                    <option value="full-time Employment">Full-time Employment</option>
+                    <option value="professional">Professional</option>
+                    <option value="self-employed">Self-employed</option>
+                    <option value="others">Others</option>
+                </select><br>
+                <label for="own">Own which of these?</label>
+		 		<input type="checkbox" name="mobile" value="mobile">Mobile
+		 		<input type="checkbox" name="tablet" value="tablet">Tablet
+		 		<input type="checkbox" name="desktop" value="desktop">Mobile
+		 		<input type="checkbox" name="laptop" value="laptop">Laptop
+		 		<br><br>
+		 		<input type="submit" value="Submit" class="mybutton">
+  				<input type="reset" value="Reset" class="mybutton">
+			</form>
+		</div>
+ 
+	</main>
+</body>
+</html>
+ 

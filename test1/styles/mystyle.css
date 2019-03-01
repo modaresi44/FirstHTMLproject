@@ -28,5 +28,5 @@ h1 { background-color: brown;}
 	width: 0;
 	height: 0;
 	border-top: 200px solid blue;
-	/*border-right: 200px solid transparent;*/
+	border-right: 200px solid transparent;
 }

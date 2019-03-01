@@ -1,0 +1,163 @@
+* { 
+	box-sizing: border-box; 
+}
+h1, h2, h3, h4, header, nav, #div_main_img, fieldset {
+	text-align: center;
+}
+body { background-color: #E0E0E0 }
+h1 {font-size: 34px}
+
+#h3_title {font-style: italic;}
+
+nav ul {list-style-type: none;}
+nav li {display: inline;} 
+nav li a:hover{color: blue; font-weight: bold;}
+nav a {padding-right: 15px;}
+
+
+.page_title { color: blue; }
+
+#div_main {
+	background-color: lightblue;
+	width: 80%;
+	margin-left : auto;
+	margin-right : auto;
+}
+form { padding: 1em; }
+label {
+	float: left;
+	text-align: right;
+	width: 15em;
+	font-size: 1em;
+	padding-top: 0.3em;
+	padding-right: 0.3em;
+	padding-bottom: 0.3em;
+}
+.star{color: red;}
+.inline{float: none;}
+input {
+    font-size: 1em;
+	padding: 0.3em 0 0.3em 0;
+	margin-bottom: 0.6em;
+}
+select {
+	font-size: 2em;
+	padding: 0.3em 0 0.3em 0;
+	margin-bottom: 0.6em;
+	margin-top: 0.2em;
+}
+ 
+.mybutton { background-color: lightgray;
+	font-size: 1em;
+	margin-left: 6em;
+	padding: .5em 1.5em .5em 1.5em;
+}
+
+
+
+
+#div_table {
+	background-color: lightblue;
+	width: 92%;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+#table_products { 
+	border-collapse: collapse;
+	border: 1px solid black;
+	font-size: 1em;
+	background-color: white;
+    color: black;
+	margin: auto;
+	width: 96%; 
+}
+
+#table_products th:nth-child(3) { width:45%;}
+
+#table_products th { 
+	background-color: lightblue;
+	text-align: center;
+	border: 1px solid black;
+	font-size: 1.1em;
+	padding: 15px;
+	
+}
+#table_products td:nth-child(3) { text-align: left;}
+#table_products td { 
+	border: 1px solid black; 
+	padding: 2px;
+	text-align: center;
+}
+/* tr:nth-child(odd) { background-color: #ccdeff; }*/
+#table_products tr:hover { background-color: #ddd; }
+#table_products img { width: auto; height: 60px; }
+
+/*
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+/*
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: inline;
+    position: relative;
+}
+ul ul {
+    position: absolute;
+    display: none;
+}
+/*
+img {
+	max-width: 100%;
+	height: auto;
+}
+ 
+.animals h2 { 
+	color: red; 
+}
+.minerals h2 { 
+	color: green; 
+}
+.vegetables h2 { 
+	color: blue; 
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+}
+section {
+	border: inset #333 thin;
+	padding: 1em;
+}
+
+.animals section {
+	background-color: lightblue;
+}
+.minerals section {
+	background-color: pink;
+}
+.vegetables section {
+	background-color: lightyellow;
+}
+
+@media (max-width: 749px) {
+	main {
+		flex-direction: column;
+	}
+	
+}
+*/
+
+
+ 

@@ -1,0 +1,50 @@
+#header,
+#blog_sidebar,
+#blog_carousel,
+#prefooter,
+#footer,
+#blog_post_nav,
+#disqus_thread,
+.filter,
+.share {
+  display: none;
+}
+
+#page {
+  padding-top: 10px;
+}
+
+.span4 {
+  display: none;
+}
+.span8 {
+  width: 100%;
+  float: none;
+}
+
+#blog_recent .item {
+  margin-bottom: 60px;
+}
+
+.thumb {
+  width: 300px;
+}
+
+* {
+  font-family: Arial !important;
+}
+a:after {
+	word-wrap: break-word;
+}
+h3 {
+	font-size: 2em;
+}
+.vc_col-sm-6 {
+	width: 50%;
+	float: left;
+}
+
+.vc_col-sm-4 {
+	width: 33.33333333%;
+	float: left;
+}

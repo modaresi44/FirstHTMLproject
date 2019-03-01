@@ -1,0 +1,14 @@
+#cabi-back-to-top {
+  position: fixed;
+  bottom: 25%;
+  margin-top: -60px;
+  right: 0px;
+  z-index: 1000;
+  -webkit-transition: right 0.2s ease-out;
+  -moz-transition: right 0.2s ease-out;
+  -o-transition: right 0.2s ease-out;
+  transition: right 0.2s ease-out;
+}
+#cabi-back-to-top.hide {
+  right: -100px;
+}
